@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "name": "dating-app",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "concurrently \"cd client && npm run client\" \"cd server && npm run server\""  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
