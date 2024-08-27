@@ -1,0 +1,76 @@
+[
+    {
+      "id": 1,
+      "title": "Hiking at Blue Mountain",
+      "description": "Join me for a day of hiking and exploring the Blue Mountain trails.",
+      "date": "2024-08-10",
+      "location": "Blue Mountain",
+      "createdBy": 1
+    },
+    {
+      "id": 2,
+      "title": "Cooking Class",
+      "description": "Let's learn to cook Italian cuisine together.",
+      "date": "2024-08-15",
+      "location": "Cooking Studio",
+      "createdBy": 2
+    },
+    {
+      "id": 3,
+      "title": "adventure at a mountain",
+      "description": "Let's learn to cook Italian cuisine together.",
+      "date": "2024-09-15",
+      "location": "Mountain",
+      "createdBy": 3
+    },
+    {
+      "id": 4,
+      "title": "adventure at a mountain",
+      "description": "Let's learn to cook Italian cuisine together.",
+      "date": "2024-09-15",
+      "location": "Mountain",
+      "createdBy": 3
+    },
+    {
+      "id": 5,
+      "title": "adventure at a mountain",
+      "description": "Let's learn to cook Italian cuisine together.",
+      "date": "2024-09-15",
+      "location": "Mountain",
+      "createdBy": 3
+    },
+    {
+      "id": 6,
+      "title": "adventure at a mountain",
+      "description": "Let's learn to cook Italian cuisine together.",
+      "date": "2024-09-15",
+      "location": "Mountain",
+      "createdBy": 3
+    },
+    {
+      "id": 7,
+      "title": "adventure at a mountain",
+      "description": "Let's learn to cook Italian cuisine together.",
+      "date": "2024-09-15",
+      "location": "Mountain",
+      "createdBy": 3
+    },
+    {
+      "id": 8,
+      "title": "adventure at a mountain",
+      "description": "Let's learn to cook Italian cuisine together.",
+      "date": "2024-09-15",
+      "location": "Mountain",
+      "createdBy": 3
+    },
+    {
+      "id": 9,
+      "title": "adventure at a mountain",
+      "description": "Let's learn to cook Italian cuisine together.",
+      "date": "2024-09-15",
+      "location": "Mountain",
+      "createdBy": 3
+    }
+    
+  ]
+  

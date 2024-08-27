@@ -1,0 +1,7 @@
+.bg-landing {
+    background-image: url('/public/backround-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  

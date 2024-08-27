@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "bio": "Loves hiking and outdoor adventures.",
+      "profilePicture": "path/to/profilePicture1.jpg",
+      "pastDates": [1, 2]
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "bio": "Enjoys reading and cooking.",
+      "profilePicture": "path/to/profilePicture2.jpg",
+      "pastDates": [3]
+    }
+  ]
+  
