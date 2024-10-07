@@ -11,12 +11,19 @@ const SignUpPage = () => {
 
   const handleSignUp = async () => {
 
+    const emailRegex = /^\d{8,10}@swave\.smu\.ac\.za$/;
+
     if (!email || !password || !confirmPassword) {
       setError('Please fill out all fields.');
       return;
     }
     if (password !== confirmPassword) {
       setError('Passwords do not match.');
+      return;
+    }
+
+    if (!emailRegex.test(email)) {
+      setError('Please enter your smu provided email address.');
       return;
     }
 
@@ -66,7 +73,7 @@ const SignUpPage = () => {
         </div>
       <button type="submit" onClick={handleSignUp} className="bg-red-600 text-white px-4 py-2 rounded-lg w-full hover:bg-black">Sign Up</button>       
       </div>
-      <p className="mt-4 text-center">Don't have an account? <Link to="/sign-up" className="text-blue-500">Sign up now</Link></p>
+      <p className="mt-4 text-center">Already have an account? <Link to="/sign-in" className="text-blue-500">Sign in now</Link></p>
     </div>
   </div>
 </div>

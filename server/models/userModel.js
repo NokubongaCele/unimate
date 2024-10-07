@@ -29,36 +29,37 @@ const userSchema = new mongoose.Schema({
     },
     name:{
         type: String,
-        //required: [true, 'User name is required']
     },
     age:{
         type: Number,
-        //required: [true, 'Age is required']
     },
     residence:{
         type: String,
-        //required: [true, 'Student residence is required']
     },
     courseOfStudy:{
         type: String,
-        //require: [true, 'Course of study is required']
     },
     levelOfStudy:{
         type: String,
-        //required: [true, 'Level of study is required']
     },
     interests:{
         type: String
     },
     relationshipGoals:{
         type: String,
-        //required: [true, 'Relationship goal required']
+    
+    },
+    bio: {
+        type: String
     },
     role:{
+        type: String
+        },
+    profilePicture: {
         type: String,
-        enum: ['applicant', 'advertiser']
-    }
-    
+        default: '',
+      },
+      
 })
 
 const User = mongoose.model('User', userSchema)

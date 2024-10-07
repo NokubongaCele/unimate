@@ -25,7 +25,7 @@ const OtpVerification = () => {
             if (res.data.status === 'success') {
                 setMessage(res.data.message);
                 setError('');
-                navigate('/create-profile')
+                navigate('/create-profile', {state: {email}})
             } else {
                 setError(res.data.message);
                 setMessage('');
